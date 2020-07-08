@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## [Deep learning based action recognition from EEG data](https://drive.google.com/file/d/1VMyxcNFLqI4_RjZq4eXUpDoOc6VcNL_0/view?usp=sharing)
 
-You can use the [editor on GitHub](https://github.com/saratbhargava/hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- Explored various CNN, RNN, Conv-Recurrent Net architectures in Keras.
+- Implemented data prepossess-ing techniques like Windowed cropping, Sub-sampling to obtain the best performance of 67% with stackedGRU compared to a base line model of 46%
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## [SpaceInvaders using Deep RL](https://drive.google.com/file/d/1LK7imLVNnEO9X33blALxWWLUqAv35E5i/view?usp=sharing)
 
-### Markdown
+- Implemented Dueling, Double DQN to play Atari Space Invaders game in tensorflow.
+- Dueling DQN learnedbetter hiding strategy than Double DQN when trained for similar duration of time in both RAM andPixel versions of the game.
+- They achieved an average score of 351.1 and 291.1 respectively.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [Deep RL vs MPC for Path Tracking](https://drive.google.com/file/d/1UU8ObBYB7dyocAuKyLFRofEqxkdkyVye/view?usp=sharing)
 
-```markdown
-Syntax highlighted code block
+- Designed Deep RL based controller for Unicycle vehicle model using the DDPG algorithm to achieve continuous control in PyTorch.
+- DDPG is more robust to action space noise than baseline LTV-MPC algorithm.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/saratbhargava/hello-world/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
